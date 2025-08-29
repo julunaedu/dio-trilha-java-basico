@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) {
-        // TODO: Conhecer e importar a classe Scanner
+        // Conhecer e importar a classe Scanner
         Scanner input = new Scanner(System.in);
 
-        // TODO: Exibir as mensagens para o usuário
-        // TODO: Obter pela Scanner os valores digitados no Terminal
+        // Exibir as mensagens para o usuário
+        // Obter pela Scanner os valores digitados no Terminal
         System.out.println("Digite o seu nome:");
         String nomeCliente = input.nextLine();
 
@@ -19,7 +19,7 @@ public class ContaTerminal {
         System.out.println("Digite o seu saldo:");
         double saldo = input.nextDouble();
 
-        // TODO: Exibir a mensagem da conta criada
+        // Exibir a mensagem da conta criada
         System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %d e seu saldo R$%.2f já está disponível para saque.", nomeCliente, agencia, numeroConta, saldo);
     }
 }
